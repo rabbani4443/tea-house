@@ -13,6 +13,7 @@
             extend: {
               colors: {
                 clifford: '#da373d',
+                textColor: ['responsive', 'hover', 'focus', 'placeholder'],
               }
             }
           }
@@ -176,8 +177,93 @@
             </div>
         </div>
     </section>
+    <!-- News & Events Section -->
+    <section class="mb-20">
+      <div class="text-center mb-14">
+        <h1 class="text-5xl font-bold mb-3">News & Events</h1>
+        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, <br>by injected humour, or randomised words which don't look even slightly believable. </p>
+      </div>
+       <!-- All Cards -->
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+        <!-- card-01 -->
+        <div class="card card-compact bg-base-100 shadow-xl border border-gray-300 p-5">
+          <figure><img src="./asset/images/news-1.png" alt="Shoes" /></figure>
+          <div class="card-body">
+            <p>Feb 05, 2027</p>
+            <h2 class="card-title">Collecting 8 points for discount</h2>
+            <p>There are many variations of passages of Lorem Ipsum available.</p>
+            <h3 class="font-bold">Learn More</h3>
+          </div>
+        </div>
+        <!-- card-01 -->
+        <div class="card card-compact bg-base-100 shadow-xl border border-gray-300 p-5">
+          <figure><img src="./asset/images/news-2.png" alt="Shoes" /></figure>
+          <div class="card-body">
+            <p>Feb 05, 2027</p>
+            <h2 class="card-title">Collecting 8 points for discount</h2>
+            <p>There are many variations of passages of Lorem Ipsum available.</p>
+            <h3 class="font-bold">Learn More</h3>
+          </div>
+        </div>
+        <!-- card-01 -->
+        <div class="card card-compact bg-base-100 shadow-xl border border-gray-300 p-5">
+          <figure><img src="./asset/images/news-3.png" alt="Shoes" /></figure>
+          <div class="card-body">
+            <p>Feb 05, 2027</p>
+            <h2 class="card-title">Collecting 8 points for discount</h2>
+            <p>There are many variations of passages of Lorem Ipsum available.</p>
+            <h3 class="font-bold">Learn More</h3>
+          </div>
+        </div>
+      </div>
+    </section>
     </main>
-    <footer></footer>
+
+    <footer class=" bg-gradient-to-r from-[#ff00001a] to-[#ff89381a] py-20">
+      <div class="w-11/12 m-auto md:w-4/5">
+
+      <div class="flex justify-between items-center pb-10 ">
+        <img src="./asset/images/cup.png" alt="">
+        <div class="flex items-center md:gap-10 gap-3">
+          <p class="font-bole">Ready to get strated?</p>
+          <button class="btn bg-gradient-to-r from-red-600 to-orange-400 text-white "> Get Started</button>
+        </div>
+      </div>
+
+      <div class="footer justify-center md:justify-between ">
+
+          <div>
+            <span class="text-xl font-bold text-black">Quick Links</span> 
+            <a class="link link-hover">Branding</a> 
+            <a class="link link-hover">Design</a> 
+            <a class="link link-hover">Marketing</a> 
+            <a class="link link-hover">Advertisement</a>
+          </div> 
+          <div>
+            <span class="text-xl font-bold text-black">Company</span> 
+            <a class="link link-hover">About us</a> 
+            <a class="link link-hover">Contact</a> 
+            <a class="link link-hover">Jobs</a> 
+            <a class="link link-hover">Press kit</a>
+          </div> 
+          <div>
+            <span class="text-xl font-bold text-black">Legal</span> 
+            <a class="link link-hover">Terms of use</a> 
+            <a class="link link-hover">Privacy policy</a> 
+            <a class="link link-hover">Cookie policy</a>
+          </div> 
+          <div>
+            <span class="text-xl font-bold text-black pb-4">Newsletter</span> 
+            <div class="">
+              <div class="">
+                <input type="email" placeholder="username@site.com" class=" bg-gradient-to-r from-[#ff00001a] to-[#ff89381a] border-b-2 border-gray-500 py-3  pr-12 focus:outline-none focus:ring-0 placeholder-gray-600 font-semibold" /> 
+              </div>
+            </div>
+          </div>
+
+      </div>
+    </div>
+    </footer>
     
 </body>
 </html>
